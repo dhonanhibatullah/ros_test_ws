@@ -23,8 +23,7 @@ int main(int argc, char **argv) {
     ros::Rate loop_rate(10);
 
     /* loop */
-    while (ros::ok())
-    {
+    while (ros::ok()) {
         /* publish string */
         std::string str = "Hello, this is cpp_publisher_node";
         msg_str.data = str;
